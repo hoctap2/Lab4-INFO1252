@@ -1,0 +1,68 @@
+body{
+    /*font- family, font-size, line-height, color, text-aline...of the body part  */
+    font-family: sans-serif;
+    font-size: 14px; 
+    line-height: 20px;
+    color: gray;
+    text-align: justify;
+    background-image: url(images/squares_bg.png); /*connect to background image*/
+    background-repeat: repeat;/* repeat the background image*/
+}
+/*color, font-family, font-weight, border, background-color, padding and margin for heading 1 and 2*/
+h1, h2{
+    color: #999999;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    border: 1px solid #333333;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 30px;
+
+}
+/*unordered list style */
+ul {
+list-style: none;
+}
+/*margin-bottom of the list */
+li {
+    margin-bottom: 16px;
+}
+
+/* font-weight, font family, font size... for the anchor tag */
+a {
+font-weight: bold;
+font-family: Arial, sans-serif;
+font-size: 18px;
+text-decoration: none;
+}
+
+/*color when click the link*/
+a:link {
+    color: sienna;
+}
+/*color when user visited*/
+a:visited {
+    color: red;
+}
+/* color for the hover\*/
+a:hover {
+    color: cyan;
+}
+
+/*color when active*/
+a:active {
+    color: green;
+}
+/*float, border, margin-right of left picture*/
+.leftpic {
+float: left;
+border: 1px solid #333333;
+margin-right: 20px;
+}
+/*float, border, margin-right of right picture*/
+.rightpic {
+    float: right;
+    border: 1px solid #333333;
+    margin-left: 20px;
+}
+
